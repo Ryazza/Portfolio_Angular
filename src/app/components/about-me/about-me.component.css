@@ -1,0 +1,20 @@
+.aboutMe_content {
+  background-color: #334547;
+}
+.aboutMe_fontStyle--lobster {
+  font-family: 'Lobster', cursive;
+}
+.aboutMe_font {
+  color: #FADFC2;
+}
+.aboutMe_font--h1 {
+  font-size: 50px;
+}
+.aboutMe_font--p {
+  font-size: 20px;
+}
+.separator {
+  border-bottom: 3px solid #FFBB98;
+  width: 40%;
+  margin: 0 auto;
+}

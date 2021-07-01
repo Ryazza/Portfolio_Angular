@@ -1,0 +1,13 @@
+.portfolio_content {
+  background-color: #334547;
+}
+.portfolio_font--title {
+  font-family: 'Lobster', cursive;
+  color: #FADFC2;
+  font-size: 50px;
+}
+.separator {
+  border-bottom: 3px solid #FFBB98;
+  width: 20%;
+  margin: 0 auto;
+}

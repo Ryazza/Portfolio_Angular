@@ -1,0 +1,40 @@
+.navbar_font {
+  color: #FADFC2;
+  font-size: 24px;
+}
+.navbar_backgroundColor {
+  background-color: #334547;
+}
+.navbar_fontStyle--lobster {
+  font-family: 'Lobster', cursive;
+}
+.navbar_image {
+  position: absolute;
+  width: 140px;
+  top: 15px;
+  left: 50px;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
+@media (max-width: 992px) {
+  .navbar_image {
+    left: 75vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .navbar_image {
+    left: 70vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar_image {
+    left: 65vw;
+  }
+}
+
+.menu_icon {
+  width: 50px;
+}

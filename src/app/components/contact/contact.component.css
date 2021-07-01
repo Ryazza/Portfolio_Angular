@@ -1,0 +1,39 @@
+.contact_content {
+  height: 100vh;
+}
+.contact_bgColor {
+  background-color: #334547;
+  opacity: 0.94;
+}
+.contact_fontStyle--title {
+  font-family: 'Lobster', cursive;
+  color: #FADFC2;
+  font-size: 50px;
+}
+.contact_left--text {
+  color: #FADFC2;
+  font-size: 20px;
+}
+.contact_label {
+  font-family: 'Lobster', cursive;
+  color: #FADFC2;
+  font-size: 20px;
+}
+.contact_btn {
+  background-color: #FADFC2;
+  color: #334547;
+  font-family: 'Lobster', cursive;
+}
+.message_result {
+  background-color: #FADFC2;
+  color: #334547;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+.contact_font {
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
+.Linkedin {
+  width: 60px;
+}

@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar_backgroundColor">
+  <div class="container-fluid">
+    <img src="assets/me.png" alt="Photo de moi, Thierry Drouin" class="navbar_image">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span><img src="/assets/menu.png" alt="Icone pour dérouler le menu" class="menu_icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+      <ul class="navbar-nav navbar_fontStyle--lobster">
+        <li class="nav-item me-5">
+          <button class="nav-link navbar_font btn btn-default" (click)="scrollTo('aboutMe')">A Propos</button>
+        </li>
+        <li class="nav-item me-5">
+          <button class="nav-link navbar_font btn btn-default" (click)="scrollTo('skills')">Compétences</button>
+        </li>
+        <li class="nav-item me-5">
+          <button class="nav-link navbar_font btn btn-default" (click)="scrollTo('portfolio')">Mes Réalisations</button>
+        </li>
+        <li class="nav-item me-5">
+          <button class="nav-link navbar_font btn btn-default" (click)="scrollTo('contact')">Contact</button>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>

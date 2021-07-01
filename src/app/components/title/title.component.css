@@ -1,0 +1,24 @@
+.mainPage_me {
+  height: 93vh;
+}
+.title_bgColor {
+  background-color: #334547;
+  opacity: 0.94;
+}
+.title_fontStyle--lobster {
+  font-family: 'Lobster', cursive;
+}
+.title_font {
+  color: #FADFC2;
+}
+.title_font--h1 {
+  font-size: 60px;
+}
+.title_font--h3 {
+  font-size: 40px;
+}
+.separator {
+  border-bottom: 3px solid #FFBB98;
+  width: 40%;
+  margin: 0 auto;
+}
