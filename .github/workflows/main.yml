@@ -38,4 +38,4 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           source: "dist/Portfolio-Angular/"
-          target: "/var/www/Portfolio-Angular"
+          target: "/var/www/Portfolio-Angular/"
