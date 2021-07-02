@@ -3,9 +3,19 @@
   background-image: url("/assets/code.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+@supports ( -webkit-touch-callout : none) {
+  .mainPage_bgImage {
+    background-attachment:scroll
+  }
+}
+
+@supports not ( -webkit-touch-callout : none) {
+  .mainPage_bgImage {
+    background-attachment: fixed;
+  }
 }
