@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 .mainPage_bgImage {
   background-image: url("/assets/code.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-attachment:fixed;
   background-size: 100vmax 100vmax;
 }
