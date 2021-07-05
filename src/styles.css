@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 .mainPage_bgImage {
-  background-image: url("/assets/code.jpg");
+  /*background-color: rgba(124, 141, 149, 0.73);*/
+  background-image: linear-gradient(
+    rgba(181, 112, 112, 0.9),
+    rgba(112, 122, 181, 0.9)
+  ), url("/assets/code.jpg");
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
