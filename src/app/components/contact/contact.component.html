@@ -1,4 +1,3 @@
-
 <div class="container-fluid contact_content" id="contact">
   <div class="row d-flex justify-content-center align-content-center flex-wrap contact_content">
     <div class="col-xl-8 col-lg-10 col-md-12">
@@ -9,7 +8,7 @@
           <form class="col-lg-6 col-md-12" (submit)="onSubmit($event)">
             <div class="mb-3">
               <label for="email" class="form-label contact_label">Votre email</label>
-              <input type="email" class="form-control" id="email" (change)="handleEmailChange($event)" >
+              <input type="email" class="form-control" id="email" (change)="handleEmailChange($event)">
             </div>
             <div class="mb-3">
               <label for="sujet" class="form-label contact_label">Sujet</label>
@@ -27,7 +26,16 @@
             <div class="p-2 contact_left--text"><span class="contact_font">Email :</span> thierry.drouin@epitech.eu</div>
             <div class="p-2 contact_left--text"><span class="contact_font">Téléphone :</span> 06-14-92-07-96</div>
             <div class="row justify-content-start mt-3 ms-1">
-              <a href="https://www.linkedin.com/feed/"><img src="/assets/linkedin.png" alt="Linkedin" class="Linkedin"></a>
+              <div class="col-1">
+                <a href="https://www.linkedin.com/in/thierry-drouin-rya" target="_blank">
+                  <img src="/assets/linkedin.png" alt="Linkedin" class="Linkedin">
+                </a>
+              </div>
+              <div class="col-1">
+                <a href="https://github.com/Ryazza" target="_blank">
+                  <img src="/assets/github.png" alt="Github" class="Linkedin">
+                </a>
+              </div>
             </div>
           </div>
         </div>
