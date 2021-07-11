@@ -23,7 +23,8 @@ export class ContactComponent implements OnInit {
     (await this.messageService.newMessage({
         contact: this.email,
         sujet: this.subject,
-        message: this.message
+        message: this.message,
+        id: "60de2ddf260239921b2d3136"
       })).subscribe({
         next: data => {
           let result = document.getElementById('resultMsg')
