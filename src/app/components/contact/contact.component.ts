@@ -31,7 +31,7 @@ export class ContactComponent implements OnInit {
           //@ts-ignore
           if(data.success === true) {
             if(result) {
-              result.innerText = "Votre message a bien été envoyer !";
+              result.innerText = "Votre message a bien été envoyé !";
               // @ts-ignore
               (document.getElementById('email')).value = "";
               // @ts-ignore
@@ -41,7 +41,7 @@ export class ContactComponent implements OnInit {
             }
           } else {
             if(result) {
-              result.innerText = "Votre message n'a pas été envoyer :("
+              result.innerText = "Votre message n'a pas été envoyé :("
             }
           }
         }
